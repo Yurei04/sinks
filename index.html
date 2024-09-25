@@ -5,27 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinks R Us - Old School Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
-    <header class="nav-container">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Types of Sinks</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </header>
+<header class="nav-header">
+    <nav class="nav nav-container">
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-arrow-up-right"></i>
+                        <span> Home </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-arrow-up-right"></i>
+                        <span> Types </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-arrow-up-right"></i>
+                        <span> Features </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-arrow-up-right"></i>
+                        <span> Contacts </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
 
     <section class="home-wrapper">
         <div class="home-title">
             <h1>Sinks R Us</h1>
-            <p>Your one-stop shop for all types of sinks</p>
+            <h3>Your one-stop shop for all types of sinks</h3>
+            <button class="button">
+              Let's Go
+          </button>
         </div>
-        <button class="button">
-        Proceed
-        </button>
+        
+        <div class="home-image-container">
+          <div class="home-item">
+            <img src="./images/sink3.jpeg" alt="">
+          </div>
+          <div class="home-item">
+            <img src="./images/sink7.jpg" alt="">
+          </div>
+          <div class="home-item">
+            <img src="./images/sink8.jpg" alt="">
+          </div>
+          <div class="home-item">
+            <img src="./images/sink1.jpg" alt="">
+          </div>
+        </div>
+
     </section>
 
     <div class="info-container">
@@ -104,13 +144,25 @@
             </div>
         </div>
     </div>
-        <footer>
-                <p> 2024 Sinks R Us </p>
-        </footer>
+
+    <div class="carosel-container">
+      <div class="background_container">
+        <div class="slides fade" style="background-image: url('./images/sink4.jpg');"></div>
+        <div class="slides fade" style="background-image: url('./images/sink5.jpg');"></div>
+        <div class="slides fade" style="background-image: url('./images/sink7.jpg');"></div>
+        <div class="slides fade" style="background-image: url('./images/sink8.jpg');"></div>
+      </div>
+    </div>
+
+      <footer>
+              <h4> 2024 Sinks R Us </h4>
+      </footer>
+
+      
 
 
         <script src="./index.js"></script>
 
 
-</body>
+  </body>
 </html>
