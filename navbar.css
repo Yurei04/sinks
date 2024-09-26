@@ -10,6 +10,7 @@ a {
 .nav-container {
     max-width: 1120px;
     margin-inline: 1.5rem;
+
 }
 
 .nav-header {
@@ -21,8 +22,9 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #33000dd3;
+    border-bottom: 2px solid #eec4dc;
     z-index: 800;
-    color: #fff;
+    color: #eec4dc;
 }
 
 .nav {
